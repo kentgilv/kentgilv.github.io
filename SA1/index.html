@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td{
+            font-family: Arial, Helvetica, sans-serif;
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        margin: auto;
+        }
+        
+        td{
+            background-color: rgb(250, 240, 228);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr  >
+            <th colspan="6" style = "background-color: rgb(41, 146, 216);">Inventory Systems</th>
+        </tr>
+        <tr style ="background-color: rgb(241, 231, 81);">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Quantity</th>
+            <th>Supplier</th>
+            <th>Date</th>
+            <th>Image</th>
+        </tr>
+        <tr>
+            <td>701</td>
+            <td>Piattos Cheese (pc)</td>
+            <td>100</td>
+            <td rowspan="8" style = "background-color: rgb(226, 179, 107); font-weight: bold;">   KKK</td>
+            <td rowspan="2">08/21/2001</td>
+            <td rowspan="8"><img src="https://store.iloilosupermart.com/wp-content/uploads/2020/05/65659.jpg" width="200"></td>
+        </tr>
+
+        <tr>
+            <td>702</td>
+            <td>Piattos Cheese (pack)</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>703</td>
+            <td>Piattos Sour Cream (pc)</td>
+            <td>100</td>
+            <td rowspan="2">02/10/1967</td>
+        </tr>
+
+        <tr>
+            <td>704</td>
+            <td>Piattos Sour Cream (pack)</td>
+            <td>50</td>
+
+        </tr>
+
+        <tr>
+            <td>705</td>
+            <td>Piattos Barbeque (pc)</td>
+            <td>100</td>
+            <td rowspan="2">10/05/1972</td>
+        </tr>
+
+        <tr>
+            <td>706</td>
+            <td>Piattos Barbeque (pack)</td>
+            <td>50</td>
+        </tr>
+
+        <tr>
+            <td>707</td>
+            <td>Piattos Roast Beef (pc)</td>
+            <td>100</td>
+            <td rowspan="3">11/23/2009</td>
+        </tr>
+        <tr>
+            <td>708</td>
+            <td>Piattos Roast Beef (pack)</td>
+            <td>50</td>
+
+        </tr>
+    </table>
+    <p>
+
+    </p>
+
+    <div style="margin: auto;">
+        <div >
+            <label for="yourname">Your Name*</label><br>
+            <input type="text" id="yourname" name="yourname" plaeholder="Your Name">
+        </div>
+
+        <div>
+            <label for="email">Email*</label><br>
+            <input type="text" id="email" name="email" plaeholder="*****@gmai.com">
+        </div>
+
+        <div>
+            <label for="contactno">Contact No.*</label><br>
+            <input type="text" id="contactno" name="contactno" plaeholder="09*********">
+        </div>
+
+        <div>
+            <label for="message">Message*</label><br>
+            <textarea rows="10" cols="50">Type Here</textarea>
+        </div>
+
+        <div>required field*
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
