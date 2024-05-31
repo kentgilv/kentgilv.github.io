@@ -1,0 +1,17 @@
+body {
+    background-color: #90e0ef;
+    border-color: antiquewhite;
+    line-height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-color: #0077b6;
+    color: aliceblue;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    background-color: aliceblue;
+}
